@@ -1,0 +1,23 @@
+{
+  "usdc": {
+    "dataSource": "Chainlink",
+    "sourceType": "Chainlink",
+    "address": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3",
+    "chain": "ARBITRUM",
+    "name": "USDC"
+  },
+  "aave": {
+    "dataSource": "Chainlink",
+    "sourceType": "Chainlink",
+    "address": "0x338ed6787f463394D24813b297401B9F05a8C9d1",
+    "chain": "OPTIMISM",
+    "name": "AAVE"
+  },
+  "1inch": {
+    "dataSource": "Pyth",
+    "sourceType": "Pyth",
+    "address": "0x63f341689d98a12ef60a5cff1d7f85c70a9e17bf1575f0e7c0b2512d48b1c8b3",
+    "chain": "MAINNET",
+    "name": "1INCH"
+  }
+}

@@ -1,0 +1,10 @@
+pandas
+python-dotenv
+datetime
+web3
+tqdm
+requests
+matplotlib
+fpdf
+numpy
+jupyterlab

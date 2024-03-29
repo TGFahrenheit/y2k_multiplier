@@ -1,0 +1,184 @@
+{
+  "usdc": {
+    "dataSource": "Chainlink",
+    "sourceType": "Chainlink",
+    "address": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3",
+    "chain": "ARBITRUM",
+    "name": "USDC"
+  },
+  "crvusd": {
+    "dataSource": "Chainlink",
+    "sourceType": "Chainlink",
+    "address": "0x0a32255dd4BB6177C994bAAc73E0606fDD568f66",
+    "chain": "ARBITRUM",
+    "name": "crvUSD"
+  },
+  "mai": {
+    "dataSource": "Chainlink",
+    "sourceType": "Chainlink",
+    "address": "0x59644ec622243878d1464A9504F9e9a31294128a",
+    "chain": "ARBITRUM",
+    "name": "MAI"
+  },
+  "dai": {
+    "dataSource": "Chainlink",
+    "sourceType": "Chainlink",
+    "address": "0xc5C8E77B397E531B8EC06BFb0048328B30E9eCfB",
+    "chain": "ARBITRUM",
+    "name": "DAI"
+  },
+  "frax": {
+    "dataSource": "Chainlink",
+    "sourceType": "Chainlink",
+    "address": "0x0809E3d38d1B4214958faf06D8b1B1a2b73f2ab8",
+    "chain": "ARBITRUM",
+    "name": "FRAX"
+  },
+  "lusd": {
+    "dataSource": "Chainlink",
+    "sourceType": "Chainlink",
+    "address": "0x0411D28c94d85A36bC72Cb0f875dfA8371D8fFfF",
+    "chain": "ARBITRUM",
+    "name": "LUSD"
+  },
+  "tusd": {
+    "dataSource": "Chainlink",
+    "sourceType": "Chainlink",
+    "address": "0x6fAbee62266Da6686EE2744C6f15bb8352d2f28D",
+    "chain": "ARBITRUM",
+    "name": "TUSD"
+  },
+  "usdd": {
+    "dataSource": "Chainlink",
+    "sourceType": "Chainlink",
+    "address": "0x4Ee1f9ec1048979930aC832a3C1d18a0b4955a02",
+    "chain": "ARBITRUM",
+    "name": "USDD"
+  },
+  "usdt": {
+    "dataSource": "Chainlink",
+    "sourceType": "Chainlink",
+    "address": "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7",
+    "chain": "ARBITRUM",
+    "name": "USDT"
+  },
+  "wbtc": {
+    "dataSource": "Chainlink",
+    "sourceType": "Chainlink",
+    "address": "0x0017abAc5b6f291F9164e35B1234CA1D697f9CF4",
+    "chain": "ARBITRUM",
+    "name": "WBTC"
+  },
+  "steth": {
+    "dataSource": "Chainlink",
+    "sourceType": "Chainlink",
+    "address": "0xded2c52b75B24732e9107377B7Ba93eC1fFa4BAf",
+    "chain": "ARBITRUM",
+    "name": "STETH"
+  },
+  "aave": {
+    "dataSource": "Chainlink",
+    "sourceType": "Chainlink",
+    "address": "0x338ed6787f463394D24813b297401B9F05a8C9d1",
+    "chain": "OPTIMISM",
+    "name": "AAVE"
+  },
+  "1inch": {
+    "dataSource": "Pyth",
+    "sourceType": "Pyth",
+    "address": "0x63f341689d98a12ef60a5cff1d7f85c70a9e17bf1575f0e7c0b2512d48b1c8b3",
+    "chain": "MAINNET",
+    "name": "1INCH"
+  },
+   "cusd": {
+    "dataSource": "Pyth",
+    "sourceType": "Pyth",
+    "address": "0x8f218655050a1476b780185e89f19d2b1e1f49e9bd629efad6ac547a946bf6ab",
+    "chain": "MAINNET",
+    "name": "CUSD"
+  },
+   "usde": {
+    "dataSource": "Pyth",
+    "sourceType": "Pyth",
+    "address": "0x6ec879b1e9963de5ee97e9c8710b742d6228252a5e2ca12d4ae81d7fe5ee8c5d",
+    "chain": "MAINNET",
+    "name": "USDe"
+  },
+   "fdusd": {
+    "dataSource": "Pyth",
+    "sourceType": "Pyth",
+    "address": "0xccdc1a08923e2e4f4b1e6ea89de6acbc5fe1948e9706f5604b8cb50bc1ed3979",
+    "chain": "MAINNET",
+    "name": "FDUSD"
+  },
+   "pyusd": {
+    "dataSource": "Pyth",
+    "sourceType": "Pyth",
+    "address": "0xc1da1b73d7f01e7ddd54b3766cf7fcd644395ad14f70aa706ec5384c59e76692",
+    "chain": "MAINNET",
+    "name": "PYUSD"
+  },
+   "usdp": {
+    "dataSource": "Pyth",
+    "sourceType": "Pyth",
+    "address": "0xa6c8eca9aea31d6bb81fd6576638f30692d4afaa73237c097c193477aa5003b3",
+    "chain": "MAINNET",
+    "name": "USDP"
+  },
+   "btc": {
+    "dataSource": "Pyth",
+    "sourceType": "Pyth",
+    "address": "0xe62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
+    "chain": "MAINNET",
+    "name": "BTC"
+  },
+   "arb": {
+    "dataSource": "Pyth",
+    "sourceType": "Pyth",
+    "address": "0x3fa4252848f9f0a1480be62745a4629d9eb1322aebab8a791e344b3b9c1adcf5",
+    "chain": "MAINNET",
+    "name": "ARB"
+  },
+   "eth": {
+    "dataSource": "Pyth",
+    "sourceType": "Pyth",
+    "address": "0xff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace",
+    "chain": "MAINNET",
+    "name": "ETH"
+  },
+   "gmx": {
+    "dataSource": "Pyth",
+    "sourceType": "Pyth",
+    "address": "0xb962539d0fcb272a494d65ea56f94851c2bcf8823935da05bd628916e2e9edbf",
+    "chain": "MAINNET",
+    "name": "GMX"
+  },
+   "sol": {
+    "dataSource": "Pyth",
+    "sourceType": "Pyth",
+    "address": "0xef0d8b6fda2ceba41da15d4095d1da392a0d2f8ed0c6c7bc0f4cfac8c280b56d",
+    "chain": "MAINNET",
+    "name": "SOL"
+  },
+   "pendle": {
+    "dataSource": "Pyth",
+    "sourceType": "Pyth",
+    "address": "0x9a4df90b25497f66b1afb012467e316e801ca3d839456db028892fe8c70c8016",
+    "chain": "MAINNET",
+    "name": "PENDLE"
+  },
+  "cvi": {
+    "dataSource": "Chainlink",
+    "sourceType": "Chainlink",
+    "address": "0xbcD8bEA7831f392bb019ef3a672CC15866004536",
+    "chain": "ARBITRUM",
+    "name": "CVI"
+  },
+  "btrfly": {
+    "dataSource": "Chainlink",
+    "sourceType": "Chainlink",
+    "address": "0x714f9EF1bd5A3eD3bcBaDa17b91f1fBD8048bbc1",
+    "chain": "ARBITRUM",
+    "name": "BTRFLY"
+  }
+}
