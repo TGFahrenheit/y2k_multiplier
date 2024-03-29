@@ -1,0 +1,40 @@
+name: Update mined data and strikes
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs everyday
+    - cron: '0 12 * * 0' # At 12:00 on Sunday
+  push:
+    branches:
+      - main  # Change this to your main branch name if different
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v4 # checkout the repository content
+
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' # install the python version needed
+
+      - name: install python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: execute py script # run strikes.py
+        run: |
+          python data_miner.py
+          python strikes.py
+
+      - name: Add and commit	
+        run: |
+          git add .	
+          git config user.name "Automated"	
+          git config user.email "actions@users.noreply.github.com"	
+          git commit -m "Latest data" 	
+      - name: Push	
+        run: git push
