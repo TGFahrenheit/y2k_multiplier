@@ -27,7 +27,7 @@ jobs:
       - name: execute py script # run strikes.py
         run: |
           python data_miner.py
-          python strikes.py
+          #python strikes.py
 
       - name: Add and commit	
         run: |
