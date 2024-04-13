@@ -173,12 +173,5 @@
     "address": "0xbcD8bEA7831f392bb019ef3a672CC15866004536",
     "chain": "ARBITRUM",
     "name": "CVI"
-  },
-  "btrfly": {
-    "dataSource": "Chainlink",
-    "sourceType": "Chainlink",
-    "address": "0x714f9EF1bd5A3eD3bcBaDa17b91f1fBD8048bbc1",
-    "chain": "ARBITRUM",
-    "name": "BTRFLY"
   }
 }
