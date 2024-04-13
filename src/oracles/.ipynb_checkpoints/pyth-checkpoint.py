@@ -39,6 +39,7 @@ def minePyth(source):
         from_timestamp = to_timestamp - 60*60*24*365
     wholeTicker = f"{ticker}/USD"
     url = f"https://benchmarks.pyth.network/v1/shims/tradingview/history?symbol=Crypto.{wholeTicker}&resolution=D&from={from_timestamp}&to={to_timestamp}"
+    print(url)
 
     response = requests.get(url)
 
